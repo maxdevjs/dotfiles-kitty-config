@@ -7,7 +7,8 @@ Configuration files for [kitty](https://sw.kovidgoyal.net/kitty/index.html).
   folder" />
 </div>
 
-- current theme: `themes/`[rose-pine.conf](https://github.com/rose-pine/kitty)
+- screenshot theme: `themes/`[rose-pine.conf](https://github.com/rose-pine/kitty)
 - [fish](https://fishshell.com/) shell
+  - my configuration files for [it](https://github.com/maxdevjs/dotfiles-fish)  
 - `la` aliased to [exa](https://the.exa.website/) `-al`
 
