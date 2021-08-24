@@ -11,4 +11,3 @@ Configuration files for [kitty](https://sw.kovidgoyal.net/kitty/index.html).
 - [fish](https://fishshell.com/) shell
   - my configuration files for [it](https://github.com/maxdevjs/dotfiles-fish)  
 - `la` aliased to [exa](https://the.exa.website/) `-al`
-
