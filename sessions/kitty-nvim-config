@@ -1,0 +1,6 @@
+new_tab nvim-config
+cd ~
+cd $XDG_CONFIG_HOME/nvim
+#launch fish -c 'man abduco'
+launch fish -c 'abduco -A nvim-config nvim init.vim'
+ 

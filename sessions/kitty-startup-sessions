@@ -1,0 +1,62 @@
+
+
+# https://dev.to/dylanirlbeck/kitty-sessions-44j2
+# https://sw.kovidgoyal.net/kitty/#sessions
+new_tab nixos-config
+cd ~/System/nixos-config
+title nxcfg
+launch fish
+
+new_tab nvim-config
+title nc
+cd ~/.config/nvimlua
+# launch fish
+launch fish -c 'nvim init.lua'
+# launch fish
+cd ~/.config/nvim
+launch fish -c 'nvim init.vim'
+# enabled_layouts tall:bias=50;full_size=1
+# layout tall
+
+new_tab flutter
+title flu
+cd /home/max/Projects/dev/tests/test-flutter/flutter-nix-hello-world
+launch fish
+
+new_tab learning-youtube
+cd ~/Studies/learn-youtube
+title learn-yt
+launch fish -c 'nvim the-net-ninja/README.md'
+
+# new_tab thenetninja
+# title react-tl
+cd /home/max/Studies/courses/reactjs/testing-library/the-net-ninja/react-testing-library-tutorial/React-Testing-Library-Net-Ninja
+launch zsh
+launch zsh
+
+new_tab creative
+cd ~/Studies/learn-youtube
+launch zsh -c 'nvim nekodigi/README.md'
+# enabled_layouts tall:bias=50;full_size=1
+# layout tall
+
+new_tab devpleno
+cd ~/Studies/learn-youtube
+launch zsh -c 'nvim devpleno/README.md'
+cd ~/Studies/learn-youtube/devpleno
+launch zsh
+
+new_tab marco-bruno
+title mb
+cd ~/Studies/learn-youtube
+launch nvim marcobruno/README.md
+launch zsh
+focus
+cd /home/max/Studies/learn-youtube/marcobruno/matching-game
+launch zsh
+#launch npm run dev
+
+new_tab games
+title 2048
+# launch zsh
+launch 2048

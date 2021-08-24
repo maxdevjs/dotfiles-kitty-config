@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+#nohup kitty --session  kitty-startup-sessions &
+echo "Launching Kitty session"
+# kitty --session kitty-startup-sessions --detach
+kitty --session $XDG_CONFIG_HOME/kitty/sessions/kitty-startup-sessions --detach
+echo "Launched Kitty session"

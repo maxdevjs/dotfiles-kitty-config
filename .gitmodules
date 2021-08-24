@@ -1,0 +1,3 @@
+[submodule "themes/tempus-themes-kitty"]
+	path = themes/tempus-themes-kitty
+	url = https://gitlab.com/protesilaos/tempus-themes-kitty
