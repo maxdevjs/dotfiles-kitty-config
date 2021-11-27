@@ -1,0 +1,40 @@
+
+
+# https://dev.to/dylanirlbeck/kitty-sessions-44j2
+# https://sw.kovidgoyal.net/kitty/#sessions
+new_tab iotop
+title scratch_pad_iotop
+launch fish -c 'sudo iotop'
+focus
+
+new_tab powertop
+launch powertop
+
+new_tab intel_gpu_top
+title intel_gpu_top
+launch fish -c 'sudo intel_gpu_top'
+
+new_tab wavemon
+title wavemon
+launch fish -c wavemon
+
+new_tab btop
+title btop
+launch fish -c btop
+
+new_tab
+title bmon
+launch bmon -p wlan0
+
+new_tab
+title glances
+launch glances
+
+new_tab
+title s-tui
+launch s-tui
+
+new_tab
+title watch cat /proc/cpuinfo
+launch watch cat /proc/cpuinfo
+

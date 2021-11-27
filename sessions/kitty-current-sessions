@@ -1,0 +1,56 @@
+
+
+# https://dev.to/dylanirlbeck/kitty-sessions-44j2
+# https://sw.kovidgoyal.net/kitty/#sessions
+new_tab nixos-config
+cd ~/System/nixos-config
+title nxcfg
+launch fish
+
+new_tab 2048
+title 2048
+# launch fish
+launch fish -c 'abduco -A 2048 2048'
+
+new_tab learn-youtube
+title learn-youtube
+cd /home/max/Personal/Studies/learn-youtube
+launch fish
+
+new_tab boniekylacerda
+title boniekylacerda
+cd ~/Personal/Studies/web/reactjs/docs/courses/boniekylacerda
+launch fish
+
+new_tab elxpro.com
+title event-6
+cd /home/max/Personal/Studies/beam/elixir/docs/courses/elxpro.com/event-6
+launch fish
+
+new_tab wesbos.com
+title beginner-javascript
+cd ~/Personal/Studies/web/js/docs/courses/wesbos.com/beginner-javascript/codes
+launch fish
+# enabled_layouts tall:bias=50;full_size=1
+# layout tall
+
+new_tab devpleno
+cd ~/Studies/learn-youtube
+launch zsh -c 'nvim devpleno/README.md'
+cd ~/Studies/learn-youtube/devpleno
+launch zsh
+
+new_tab marco-bruno
+title mb
+cd ~/Studies/learn-youtube
+launch nvim marcobruno/README.md
+launch zsh
+focus
+cd /home/max/Studies/learn-youtube/marcobruno/matching-game
+launch zsh
+#launch npm run dev
+
+new_tab games
+title 2048
+# launch zsh
+launch 2048
